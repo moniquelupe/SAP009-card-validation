@@ -1,15 +1,43 @@
+* {
+  margin: 0
+  padding: 0
+}
+#titulo {
+  font-family: 'Courier New';
+  color: black;
+  font-size: 1em;
+}
+
+#subtitulo {
+  font-family: 'Courier New';
+  color: black;
+  font-size: 1em;
+}
+
 body {
     width: 500px;
+    font-family: 'Courier New';
+    font-size: 1em;
+    justify-content: center;
     margin: 0 auto;
     background: rgb(63,94,251);
     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,146,70,0.8379726890756303) 100%);
     padding: 10px 10px 10px 10px;
     border: 1px solid black;
     margin: 150px auto;
+    border-radius: 10px;
   }
-html {
+  html {
     background: rgb(63,94,251);
     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(164,70,252,1) 100%);
 }
 
+#btn-validar {
+  font-family: 'Courier New';
+  color: white;
+  background-color: purple;
+  border-color: purple;
+  cursor: pointer;
+
+}
 

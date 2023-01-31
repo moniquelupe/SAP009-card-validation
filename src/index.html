@@ -1,93 +1,30 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="pt-br">
+<head>
     <meta charset="utf-8">
     <title>Valide o seu cartão de crédito</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <h3>Olá! Valide aqui o seu cartão. Compra segura.</h3>
-    </header>
-    <main>
-      <div>
-          <h4 class="title">Adicione os dados do seu cartão</h4>
-      </div>
-
-        <div>
-          <form>
-            <input type="number"
-            maxlength="16"
-            id="numero-cartao"
-            placeholder="Número do cartão"
-            required
-            />
-        </div><br>
-
-        <div>
-          <form>
-          <input type="text" 
-          id="nome-no-cartao" 
-          size="25" 
-          placeholder="Insira o nome como no cartão"
-          required
-          />
-        </div><br>
-        
-        <div>
-          <form>
-            <input type="text"
-            id="bandeira-cartao"
-            size="25"
-            placeholder="Bandeira do cartão"
-            required
-            />
-            <select name="mes">
-            <option value="mastercard">Master Card</option>
-              <option value="visa">Visa</option>
-              <option value="elo">Elo</option>
-              <option value="american-express">American Express</option>
-              <option value="hipercard">Hipercard</option>
-              <option value="outro">Outro</option>
-              </select><br>
-        </div><br>
-
-        <!-- 
-          OUTRA MANEIRA DE ESCREVER O MESMO CÓDIGO ACIMA 
-          (estudar a diferença entre elas)
-          
-          <div class="bandeira-cartao"> 
-          <input type="text" 
-            class="bandeira-cartao" 
-            size="25" 
-            placeholder="Bandeira do cartão">  
-          -->
-
+</head>
+<body>
+<header>
+  <h3 id="titulo">Olá! Valide aqui o seu cartão. Compra segura.</h3>
+  <h4 id="subtitulo">Adicione os dados do seu cartão</h4>
+</header>
+<main>
+        <form> 
           <div>
-            <form>
-              <input type="number"
-              id="ano-validade"
-              size="25"
-              placeholder="Ano de Validade"
+              <input type="text" 
+              id="numero-cartao" 
+              placeholder="Número do cartão" 
+              maxlength="16"
               required
               />
-              <select name="Ano">
-                <option value="2016">2016</option>
-                <option value="2017">2017</option>
-                <option value="2018">2018</option>
-                <option value="2019">2019</option>
-                <option value="2020">2020</option>
-                <option value="2021">2021</option>
-                <option value="2022">2022</option>
-                <option value="2023">2023</option>
-                <option value="2024">2024</option>
-                <option value="2025">2025</option>
-                <option value="2026">2026</option>
-                  </select>
           </div><br>
-          <button type="botao-validar">Valide aqui</button>
-    </main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+        </form>
+          <button id="btn-validar">Clique aqui</button>
+</main>
+<footer></footer>
+<script src="index.js" type="module"></script>
+</body>
 </html>
+
