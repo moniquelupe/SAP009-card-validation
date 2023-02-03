@@ -1,6 +1,11 @@
 const validator = {
   isValid: function(numeroCartao) {
-    console.log("oi", numeroCartao);
+    const numeroCartaoInvertido =  
+    console.log(numeroCartao);
+    for (let i = 0; i <= numeroCartaoInvertido.length -1; i++) {
+      console.log(numeroCartaoInvertido[i]) 
+    }
+
   }
    
 };
