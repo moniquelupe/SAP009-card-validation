@@ -18,6 +18,7 @@
               placeholder="Número do cartão" 
               maxlength="16"
               required
+              oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..?)\../g, '$1');"> <!--impede que o input aceite letras-->
               />
           </div><br>
               <button id="btn-validar">Clique aqui</button>
