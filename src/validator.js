@@ -1,6 +1,18 @@
 const validator = {
-  isValid: function (numeroCartao) {
-    const numeroCartaoInvertido = numeroCartao.split('').reverse(); // guarda o numero do cartao invertido (reverse) como uma string seprada (split)
+  maskify: function (nmrCartao) {
+    const maskNumero = [];
+    for (let i = 0; i < nmrCartao.length; i++) {
+      if (i < nmrCartao.length - 4) {
+        maskNumero.push('#');
+      } else {
+        maskNumero.push(nmrCartao[i]);
+      }
+    }
+    return maskNumero.join("");
+
+  },
+  isValid: function (nmrCartao) {
+    const numeroCartaoInvertido = nmrCartao.split('').reverse(); // guarda o numero do cartao invertido (reverse) como uma string seprada (split)
     const posPares = [];                                            // guarda as posições pares da string
     const posImpares = [];                                            // guarda as posições ímpares da string
     let somaDoisDig = 0;                                          // guarda o valor somado dos digitos dos números maiores que 9
