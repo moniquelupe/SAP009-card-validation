@@ -1,16 +1,4 @@
 const validator = {
-  maskify: function (nmrCartao) {
-    const maskNumero = [];
-    for (let i = 0; i < nmrCartao.length; i++) {
-      if (i < nmrCartao.length - 4) {
-        maskNumero.push('#');
-      } else {
-        maskNumero.push(nmrCartao[i]);
-      }
-    }
-    return maskNumero.join("");
-
-  },
   isValid: function (nmrCartao) {
     const numeroCartaoInvertido = nmrCartao.split('').reverse(); // guarda o numero do cartao invertido (reverse) como uma string seprada (split)
     const posPares = [];                                            // guarda as posições pares da string
@@ -55,6 +43,20 @@ const validator = {
     console.log(somaValidar % 10 === 0)
     return somaValidar % 10 === 0
 
+  },
+  maskify: function (nmrCartao) {
+    const maskNumber = [];
+    for (let i = 0; i < nmrCartao.length; i++) {
+      if (i < nmrCartao.length - 4) {
+        maskNumber.push("#");
+      } else {
+        maskNumber.push(nmrCartao[i])
+      }
+    }
+    console.log('maskNumber', maskNumber);
+    const masked = maskNumber.join("");
+    console.log('masked', masked);
+    return masked;
   }
 }
 export default validator;
