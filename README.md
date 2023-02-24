@@ -5,7 +5,7 @@
 * [1. Introdução](#1-Introdução)
 * [2. Resumo do projeto](#2-Resumo-do-projeto)
 * [3. Principais tecnologias utilizadas](#3-Principais-tecnologias-utilizadas)
-* [4.Instalando] (#4-instalando-o-aplicativo-no-seu-computador)
+* [4.Instalando] (#4-instalando)
 
 ***
 
@@ -36,11 +36,11 @@ HTML
 CSS
 Git e Git Hub
 
-## 4. Instalando:
+## 4. Instalando
 
 ```bash
-1º um fork no GitHub
-2º um clone para sua máquina [git clone]
-3º acessar o projeto e fazer as instalações [npm install]
-4º rodar o projeto [npm start]
+1º crie um fork no GitHub
+2º faça um clone para sua máquina [git clone]
+3º acesse o projeto e fazer as instalações [npm install]
+4º rode o projeto [npm start]
 ```
