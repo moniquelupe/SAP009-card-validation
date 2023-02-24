@@ -1,10 +1,11 @@
 # Cartão de Crédito Válido
 
-## Índice
+## Índice 
 
 * [1. Introdução](#1-Introdução)
-* [2. Resumo do projeto](#2-resumo-do-projeto)
-* [3. Principais tecnologias utilizadas](#3-principais-tecnologias-utilizadas)
+* [2. Resumo do projeto](#2-Resumo-do-projeto)
+* [3. Principais tecnologias utilizadas](#3-Principais-tecnologias-utilizadas)
+* [4.Instalando] (#4-instalando-o-aplicativo-no-seu-computador)
 
 ***
 
@@ -35,3 +36,11 @@ HTML
 CSS
 Git e Git Hub
 
+## 4. Instalando:
+
+```bash
+1º um fork no GitHub
+2º um clone para sua máquina [git clone]
+3º acessar o projeto e fazer as instalações [npm install]
+4º rodar o projeto [npm start]
+```
