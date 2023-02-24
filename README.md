@@ -1,11 +1,11 @@
 # Cartão de Crédito Válido
 
-## Índice 
+## Índice
 
 * [1. Introdução](#1-Introdução)
 * [2. Resumo do projeto](#2-Resumo-do-projeto)
 * [3. Principais tecnologias utilizadas](#3-Principais-tecnologias-utilizadas)
-* [4.Instalando] (#4-instalando)
+* [4. Instalando](#4-Instalando-o-aplicativo-no-seu-computador)
 
 ***
 
@@ -31,16 +31,16 @@ de confirmar se o número é válido ou não, oculta todos (exceto os quatro úl
 digitos do número digitado.
 
 ## 3. Principais tecnologias utilizadas
-JavaScript
-HTML
-CSS
-Git e Git Hub
+* JavaScript
+* HTML
+* CSS
+* Git e Git Hub
 
-## 4. Instalando
+## 4. Instalando o aplicativo no seu computador
 
 ```bash
 1º crie um fork no GitHub
 2º faça um clone para sua máquina [git clone]
-3º acesse o projeto e fazer as instalações [npm install]
+3º acesse o projeto e faça as instalações [npm install]
 4º rode o projeto [npm start]
 ```
