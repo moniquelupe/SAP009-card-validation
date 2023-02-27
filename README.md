@@ -6,6 +6,7 @@
 * [2. Resumo do projeto](#2-Resumo-do-projeto)
 * [3. Principais tecnologias utilizadas](#3-Principais-tecnologias-utilizadas)
 * [4. Instalando](#4-Instalando-o-aplicativo-no-seu-computador)
+* [5. Acesse o meu projeto] (#5-Acesse-o-meu-projeto)
 
 ***
 
@@ -44,3 +45,7 @@ digitos do número digitado.
 3º acesse o projeto e faça as instalações [npm install]
 4º rode o projeto [npm start]
 ```
+
+## 5. Acesse o meu projeto
+
+Clique no link para visualizar: https://moniquelupe.github.io/SAP009-card-validation/
