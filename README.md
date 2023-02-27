@@ -6,7 +6,7 @@
 * [2. Resumo do projeto](#2-Resumo-do-projeto)
 * [3. Principais tecnologias utilizadas](#3-Principais-tecnologias-utilizadas)
 * [4. Instalando](#4-Instalando-o-aplicativo-no-seu-computador)
-* [5. Acesse o meu projeto] (#5-Acesse-o-meu-projeto)
+* [5.Acesse] (#5-Acesse-o-meu-projeto)
 
 ***
 
