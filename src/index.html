@@ -1,32 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="utf-8">
-    <title>Valide o seu cartão de crédito</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="utf-8">
+  <title>Valide o seu cartão de crédito</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<header>
-  <h3 id="titulo">Olá! Valide aqui o seu cartão. Compra segura.</h3>
-  <h4 id="subtitulo">Adicione os dados do seu cartão</h4>
-</header>
-<main>
-        <form> 
-          <div>
-              <input type="text" 
-              id="numero-cartao" 
-              placeholder="Número do cartão" 
-              maxlength="16"
-              required
-              oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..?)\../g, '$1');" 
-              > <!--impede que o input aceite letras-->
-          </div><br>
-              <button id="btn-validar">Clique aqui</button>
-        </form>
-
-</main>
-<footer></footer>
-<script src="index.js" type="module"></script>
+  <header>
+    <h3 class="titulo">Olá! Valide aqui o seu cartão. Compra segura.</h3>
+    <h4 class="titulo">Adicione os dados do seu cartão</h4>
+  </header>
+  <main>
+    <form> 
+      <div>
+          <input type="text" 
+            id="numero-cartao" 
+            placeholder="Número do cartão" 
+            maxlength="16"
+            required
+            oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..?)\../g, '$1');" 
+            > <!--impede que o input aceite letras-->
+      </div>
+      <button id="btn-validar">Clique aqui</button>
+    </form>
+  </main>
+  <script src="index.js" type="module"></script>
 </body>
 </html>
 
